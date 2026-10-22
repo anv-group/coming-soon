@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ANV Group — Coming Soon</title>
+  
+  <!-- Meta description & SEO -->
+  <meta name="description" content="ANV Group official website is under construction. Redirecting you to our GitHub organization." />
+  <meta name="robots" content="index, follow" />
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://anvgroup.my.id" />
+  <meta property="og:title" content="ANV Group — Coming Soon" />
+  <meta property="og:description" content="A small group of people from SMKN 1 Jenangan making stuff. Official website coming soon." />
+  <meta property="og:image" content="assets/logo.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/logo.png" />
+  
+  <!-- Google Fonts: Space Grotesk + Inter + JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Fallback redirect if JavaScript is disabled -->
+  <noscript>
+    <meta http-equiv="refresh" content="5;url=https://github.com/anv-group" />
+  </noscript>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="site-shell">
+    <!-- Top System Bar -->
+    <header class="system-bar" role="banner">
+      <div class="system-brand">
+        <img src="assets/logo.png" alt="ANV Group Logo" class="brand-glyph" width="24" height="24" />
+        <span class="brand-name">ANV Group</span>
+        <span class="system-divider" aria-hidden="true">/</span>
+        <span class="system-org">SMKN 1 Jenangan</span>
+      </div>
+      <div class="system-telemetry">
+        <span class="status-indicator" aria-hidden="true"></span>
+        <span class="status-label">DISPATCH_LIVE</span>
+      </div>
+    </header>
+
+    <!-- Main Workspace -->
+    <main class="workbench-main" id="main-content">
+      <div class="content-split">
+        
+        <!-- Left Lede: Brand & Direction -->
+        <section class="lede-column" aria-labelledby="hero-title">
+          <div class="mono-eyebrow">ORG_STATUS // COMING_SOON</div>
+          <h1 id="hero-title" class="display-title">Making stuff with code, curiosity, and craft.</h1>
+          <p class="lede-text">
+            A small group of student makers and software enthusiasts from SMKN 1 Jenangan.
+            Our official web domain is currently in development.
+          </p>
+          <p class="body-context">
+            In the meantime, all our active codebases, open-source experiments, and project repositories are hosted on our GitHub organization.
+          </p>
+
+          <div class="action-dock">
+            <a href="https://github.com/anv-group" class="btn btn-primary" id="redirect-now">
+              <span>Open GitHub Organization</span>
+              <svg class="btn-icon" width="16" height="16" viewBox="0 0 16 16" fill="none" aria-hidden="true">
+                <path d="M4 12L12 4M12 4H6M12 4V10" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+
+            <button type="button" class="btn btn-secondary" id="pause-btn">
+              <span class="pause-icon" id="pause-indicator-icon" aria-hidden="true">❚❚</span>
+              <span id="pause-btn-text">Pause Redirect</span>
+            </button>
+          </div>
+        </section>
+
+        <!-- Right Workbench: Dispatch Terminal & Telemetry -->
+        <section class="instrument-column" aria-label="Automated Redirect Status">
+          <div class="instrument-panel">
+            <div class="panel-header">
+              <span class="panel-tag">ROUTER_DISPATCH</span>
+              <span class="panel-dest">TARGET: anv-group</span>
+            </div>
+
+            <div class="panel-body">
+              <div class="countdown-hero">
+                <div class="countdown-number-wrapper">
+                  <span class="countdown-value" id="countdown">5</span>
+                  <span class="countdown-suffix" id="countdown-unit">s</span>
+                </div>
+                <div class="countdown-status" id="countdown-highlight">
+                  Auto-forwarding in progress
+                </div>
+              </div>
+
+              <!-- Precision Progress Bar -->
+              <div class="meter-track" role="progressbar" aria-valuemin="0" aria-valuemax="5" aria-valuenow="5" aria-label="Redirect countdown progress">
+                <div class="meter-fill" id="progress-bar"></div>
+              </div>
+
+              <div class="telemetry-specs">
+                <div class="spec-row">
+                  <span class="spec-key">DESTINATION</span>
+                  <span class="spec-value mono">https://github.com/anv-group</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">ORGANIZATION</span>
+                  <span class="spec-value">ANV Group (Public Org)</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">ORIGIN</span>
+                  <span class="spec-value">SMKN 1 Jenangan, Ponorogo</span>
+                </div>
+                <div class="spec-row">
+                  <span class="spec-key">DOMAIN STATUS</span>
+                  <span class="spec-value highlight">Under active construction</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel-footer">
+              <span class="shortcut-tip"><kbd>Space</kbd> pause/resume</span>
+              <span class="shortcut-tip"><kbd>Enter</kbd> redirect now</span>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </main>
+
+    <!-- Bottom Colophon / Footer -->
+    <footer class="colophon-bar" role="contentinfo">
+      <div class="colophon-left">
+        <span>&copy; <span id="year">2026</span> ANV Group. All rights reserved.</span>
+      </div>
+      <div class="colophon-right">
+        <a href="https://github.com/anv-group" class="colophon-link" target="_blank" rel="noopener noreferrer">github.com/anv-group</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

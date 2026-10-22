@@ -1,0 +1,21 @@
+[
+  {
+    "date": "2026-10-22",
+    "target": "index.html",
+    "verb": "redesign",
+    "genre": "modern-minimal",
+    "theme": "cobalt",
+    "macrostructure": "workbench",
+    "nav": "system-bar",
+    "footer": "Ft2-colophon",
+    "brief": "Redesign index.html coming soon / redirect page for ANV Group",
+    "critique": {
+      "philosophy": 5,
+      "hierarchy": 5,
+      "execution": 5,
+      "specificity": 5,
+      "restraint": 5,
+      "variety": 5
+    }
+  }
+]
